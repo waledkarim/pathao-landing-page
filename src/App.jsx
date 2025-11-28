@@ -38,7 +38,7 @@ function App() {
         {/* === *** === */}
 
         {/* Facts section */}
-        <section className="facts wrapper autoShow">
+        <section className="facts wrapper">
           <div className="facts__body">
             <p>15 Million+</p>
             <p>App downloads</p>

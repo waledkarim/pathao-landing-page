@@ -38,7 +38,7 @@ function App() {
         {/* === *** === */}
 
         {/* Facts section */}
-        <section className="facts wrapper">
+        <section className="facts wrapper autoShow">
           <div className="facts__body">
             <p>15 Million+</p>
             <p>App downloads</p>
@@ -122,7 +122,7 @@ function App() {
         <hr className="border border-solid border-slate-300 mt-10 mb-2" />
 
         {/* Earn section */}
-        <section className="earn">
+        <section className="earn autoShow">
           <div className="wrapper flow">
             <h1>Earn with your car, bike or bicycle</h1>
             <p>

@@ -46,7 +46,7 @@ function MobileNav() {
                 </Dropdown.List>
                 <Dropdown.Footer>
                   <Dropdown.FooterItem>
-                    <a className="p-3 text-[var(--clr-neutral-900)]">
+                    <a className="p-4 text-[var(--clr-neutral-900)]">
                       Download Pathao Drive App
                     </a>
                   </Dropdown.FooterItem>

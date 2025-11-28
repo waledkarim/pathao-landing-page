@@ -1,0 +1,69 @@
+.tablist {
+  margin-top: 20px;
+}
+
+.tablist__tabs {
+  display: flex;
+  column-gap: 10px;
+
+  font-weight: var(--weight-semibold);
+  overflow: auto;
+  padding-block: 20px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+
+  color: var(--clr-neutral-900);
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.125rem;
+  width: max-content;
+}
+
+.tab__btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tab__progress {
+  height: 3px;
+  border-radius: 5px;
+  background-color: var(--progress-clr, var(--clr-accent-400));
+
+  transition: width 100ms ease;
+}
+
+.tablist__body {
+  margin-top: 20px;
+}
+
+.tablist__imageBox {
+  height: 900px;
+  display: none;
+}
+
+@media (min-width: 50em) {
+  .tablist__tabs {
+    justify-content: center;
+    column-gap: 30px;
+
+    margin-inline: auto;
+  }
+
+  .tab {
+    padding-inline: 20px;
+  }
+
+  .tablist__body {
+    text-align: left;
+  }
+
+  .tablist__imageBox {
+    display: block;
+  }
+}

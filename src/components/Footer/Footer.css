@@ -1,0 +1,26 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer__nav-list-item:last-child {
+  border-bottom: 1px solid white;
+}
+
+.footer__nav-item {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding-block: 20px;
+}
+
+.footer__dropdown {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.footer__dropdown-item {
+  font-size: 1.1rem;
+}
